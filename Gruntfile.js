@@ -192,7 +192,7 @@ module.exports = function (grunt) {
         },
         "git": {
             "www": {
-                "repo"      : "../brackets",    // TODO user configurable?
+                "repo"      : "../app",    // TODO user configurable?
                 "branch"    : grunt.option("www-branch") || ""
             },
             "shell": {
